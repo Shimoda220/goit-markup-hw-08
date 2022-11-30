@@ -1,0 +1,25 @@
+.container {
+  width: $mobile;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+// tab
+@media screen and (min-width: $tablet) {
+  display: flex;
+  width: 768px;
+  
+}
+
+// desctop
+  @media screen and (min-width: $desctop) {
+    display: flex;
+    width: 1200px;
+  }
+}
+
+
+
+
+

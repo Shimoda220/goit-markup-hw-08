@@ -1,0 +1,49 @@
+.contacts {
+display: flex;
+align-items: center;
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.contacts .item + .item {
+    margin-left: 50px;
+}
+
+.item {
+    position: relative;
+&:hover {
+    color: $main-blue-color;
+}
+}
+
+.contacts-mail,
+.contacts-tel {
+    display: inline-flex;
+    color: $secondary-text-color;
+    text-decoration: none;
+    align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-mail:hover,
+.contacts-tel:hover {
+    color: $main-blue-color;
+    fill: $main-blue-color;
+}
+
+.item:hover + .envelope:hover {
+    fill: $main-blue-color;
+}
+
+.envelope,
+.telephone {
+    fill: currentColor;
+}
+
+

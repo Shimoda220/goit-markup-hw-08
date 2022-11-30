@@ -1,0 +1,28 @@
+.portfolio-cont .container {
+    display: inline;
+}
+
+.main-nav-filter {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    color: $main-black-color;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 31px;
+}
+
+.main-nav-filter .item+.item {
+    margin-left: 8px;
+}
+
+.main-nav-filter .button {
+    color: $main-black-color;
+    background-color: $secondary-font-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
